@@ -205,7 +205,7 @@ Selector universal es un asterisco (`*`) y selecciona a todos los elementos. El 
 
 [Volver al inicio](#-Selectores)
 
-### SELECTOR UNIVERSAL
+### SELECTORES HERMANOS
 
 ---------------------------------------------------------------------------
 

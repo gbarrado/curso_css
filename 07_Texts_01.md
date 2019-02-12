@@ -267,3 +267,80 @@ div {
 ```
 
 [Volver al inicio](#-Textos)
+
+### TAMAÑOS CON EM
+
+---------------------------------------------------------------------------
+
+```css
+body { font-size:62.5%; }
+h1 { font-size: 2.4em; } /* =24px */
+p  { font-size: 1.4em; } /* =14px */
+li { font-size: 1.4em; } /* =14px? */
+li li, li p /* etc */ { font-size: 1em; }
+```
+
+> **FUENTE**: [https://snook.ca/archives/html_and_css/font-size-with-rem](https://snook.ca/archives/html_and_css/font-size-with-rem)
+
+```sass
+html {
+  font-size: 16px;
+    
+  @media screen and (min-width: 900px) {
+    font-size: 18px;
+  }
+    
+  @media screen and (min-width: 1200px) {
+    font-size: 20px;
+  }
+}
+h2 { 
+  font-size: 2em;
+}
+
+pre {
+  font-size: 0.8em;
+}
+```
+
+> **FUENTE**: [https://css-tricks.com/rem-global-em-local/](https://css-tricks.com/rem-global-em-local/)
+
+[Volver al inicio](#-Textos)
+
+### TAMAÑOS CON REM
+
+---------------------------------------------------------------------------
+
+```css
+html { font-size: 62.5%; } 
+body { font-size: 14px; font-size: 1.4rem; } /* =14px */
+h1   { font-size: 24px; font-size: 2.4rem; } /* =24px */
+```
+
+> **FUENTE**: [https://snook.ca/archives/html_and_css/font-size-with-rem](https://snook.ca/archives/html_and_css/font-size-with-rem)
+
+
+```sass
+html {
+  font-size: 16px;
+    
+  @media screen and (min-width: 900px) {
+    font-size: 18px;
+  }
+    
+  @media screen and (min-width: 1200px) {
+    font-size: 20px;
+  }
+}
+.module {
+  font-size: 1.1rem;
+}
+
+.another-module {
+  font-size: 1.3rem;
+}
+```
+
+> **FUENTE**: [https://css-tricks.com/rem-global-em-local/](https://css-tricks.com/rem-global-em-local/)
+
+[Volver al inicio](#-Textos)

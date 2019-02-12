@@ -34,4 +34,8 @@ Esto se debe a que son elementos inline y su altura de línea (line-height) es q
         * `display: table-cell;`
         * `vertical-align: middle;`
 
+## FUENTE DE IMÁGENES ALEATORIAS
+
+[http://lorempixel.com/200/200](http://lorempixel.com/200/200)
+
 [Volver al inicio](#-Imágenes)

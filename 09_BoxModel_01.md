@@ -10,6 +10,8 @@
 
 ---------------------------------------------------------------------------
 
+![https://s3.amazonaws.com/viking_education/web_development/web_app_eng/css_box_model_chrome.png](https://s3.amazonaws.com/viking_education/web_development/web_app_eng/css_box_model_chrome.png)
+
 Existen dos tipos de elementos:
 * `block-level`, Ocupan el **100%** de ancho disponible (por default)
 * `inline-level`, Su ancho está definido por su contenido.

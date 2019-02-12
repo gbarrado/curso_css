@@ -15,7 +15,7 @@
 
 ```html
 <div class="container clearfix" style="background: yellow; margin-bottom: 1em;">
-    <img class="img" src="http://lorempixel.com/300/200" alt="" style="loat: right; margin-left: 1em;">
+    <img class="img" src="http://lorempixel.com/300/200" alt="" style="float: right; margin-left: 1em;">
     <p class="parrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque unde itaque eveniet quis, nisi perspiciatis minima repudiandae, sint qui accusantium! Perferendis commodi illo nesciunt voluptatum repellat saepe, iusto tenetur ab.</p>
 </div>
 <div class="container2 ">
@@ -65,6 +65,32 @@ La propiedad `clear` se usa para que un elemento no reciba elementos flotados a 
 
 ---------------------------------------------------------------------------
 
+<div class="gallery-container" style="float: left;
+  width: 23%;
+  margin: 1%;
+  border: 1px solid #ccc;
+  padding: 3px;">
+  <img class="gallery-item" src="http://lorempixel.com/200/200" alt="" style="display: block;
+  width: 100%;">
+</div>
+<div class="gallery-container" style="float: left;
+  width: 23%;
+  margin: 1%;
+  border: 1px solid #ccc;
+  padding: 3px;">
+  <img class="gallery-item" src="http://lorempixel.com/200/200" alt="" style="display: block;
+  width: 100%;">
+</div>
+<div class="gallery-container" style="float: left;
+  width: 23%;
+  margin: 1%;
+  border: 1px solid #ccc;
+  padding: 3px;">
+  <img class="gallery-item" src="http://lorempixel.com/200/200" alt="" style="display: block;
+  width: 100%;">
+</div>
+<div style="clear:both"></div>
+
 ```html
 <div class="gallery-container">
   <img class="gallery-item" src="http://lorempixel.com/200/200" alt="">
@@ -76,6 +102,7 @@ La propiedad `clear` se usa para que un elemento no reciba elementos flotados a 
   <img class="gallery-item" src="http://lorempixel.com/200/200" alt="">
 </div>
 ```
+
 ```css
 .parrafo2 {
   clear: right

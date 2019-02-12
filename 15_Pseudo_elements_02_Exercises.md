@@ -6,7 +6,7 @@
 
 ---------------------------------------------------------------------------
 
-1. **Set text color to red, for the first line of the <p> element.**
+1. **Set text color to red, for the first line of the `<p>` element.**
 
 ```html
 <!DOCTYPE html>
@@ -40,7 +40,7 @@
 
 ---------------------------------------------------------------------------
 
-2. **Set text color to "red", and the text size to "xx-large", for the first letter of the <p> element.**
+2. **Set text color to "`red`", and the text size to "`xx-large`", for the first letter of the `<p>` element.**
 
 ```html
 <!DOCTYPE html>
@@ -75,7 +75,7 @@
 
 ---------------------------------------------------------------------------
 
-3. **Insert the image "smiley.gif" before, and after <p> elements, using the ::before and ::after pseudo-elements.**
+3. **Insert the image "`http://lorempixel.com/200/200`" before, and after `<p>` elements, using the `::before` and `::after` pseudo-elements.**
 
 ```html
 <!DOCTYPE html>
@@ -99,10 +99,10 @@
     <head>
         <style>
             p::before{
-                content: url(smiley.gif);
+                content: url(http://lorempixel.com/200/200);
             }
             p::after{
-                content: url(smiley.gif);
+                content: url(http://lorempixel.com/200/200);
             }
         </style>
     </head>
