@@ -288,6 +288,8 @@ La propiedad `justify-content` se utiliza para alinear toda la rejilla dentro de
 
 > **NOTA**: El ancho total de la cuadrícula tiene que ser menor que el ancho del contenedor para que la propiedad `justify-content` tenga algún efecto.
 
+El valor "`space-evenly`" dará a las columnas la misma cantidad de espacio entre ellas y alrededor de ellas:
+
 ---------------------------------------------------------------------------
 
 **EJEMPLO CÓDIGO**: `justify-content: space-evenly;`
@@ -360,6 +362,8 @@ La propiedad `justify-content` se utiliza para alinear toda la rejilla dentro de
   </body>
 </html>
 ```
+
+El valor "`space-around`" dará a las columnas la misma cantidad de espacio alrededor de ellas:
 
 ---------------------------------------------------------------------------
 
@@ -434,6 +438,8 @@ La propiedad `justify-content` se utiliza para alinear toda la rejilla dentro de
 </html>
 ```
 
+El valor "`space-between`" dará a las columnas la misma cantidad de espacio entre ellas:
+
 ---------------------------------------------------------------------------
 
 **EJEMPLO CÓDIGO**: `justify-content: space-between;`
@@ -506,6 +512,8 @@ La propiedad `justify-content` se utiliza para alinear toda la rejilla dentro de
   </body>
 </html>
 ```
+
+El valor "`center`" alineará las columnas en el centro del contenedor:
 
 ---------------------------------------------------------------------------
 
@@ -580,6 +588,8 @@ La propiedad `justify-content` se utiliza para alinear toda la rejilla dentro de
 </html>
 ```
 
+El valor "`start`" alineará las columnas al inicio del contenedor:
+
 ---------------------------------------------------------------------------
 
 **EJEMPLO CÓDIGO**: `justify-content: start;`
@@ -652,6 +662,8 @@ La propiedad `justify-content` se utiliza para alinear toda la rejilla dentro de
   </body>
 </html>
 ```
+
+El valor "`end`" alineará las columnas al final del contenedor:
 
 ---------------------------------------------------------------------------
 
@@ -1143,7 +1155,7 @@ El valor "`end`" alineará las filas al final del contenedor:
 
 <div class="grid-container" style="display: grid;
         height: 400px;
-        align-content: start;
+        align-content: end;
         grid-template-columns: auto auto auto;
         grid-gap: 10px;
         background-color: #2196F3;
@@ -1182,7 +1194,7 @@ El valor "`end`" alineará las filas al final del contenedor:
       .grid-container {
         display: grid;
         height: 400px;
-        align-content: start;
+        align-content: end;
         grid-template-columns: auto auto auto;
         grid-gap: 10px;
         background-color: #2196F3;

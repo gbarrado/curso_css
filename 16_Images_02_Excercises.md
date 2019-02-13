@@ -50,7 +50,7 @@
   <body>
     <h2>Thumbnail Images</h2>
     <p>Use the border property to create thumbnail images:</p>
-    <img src="https://86087-590828-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2016/01/paris-fin-de-semana-1024x683.jpeg" alt="Paris" style="width:150px">
+    <img src="https://86087-590828-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2016/01/paris-fin-de-semana-1024x683.jpeg" alt="Paris">
   </body>
 </html>
 ```
@@ -85,7 +85,7 @@
     <p>Hover over the image and click on it to see the effect.</p>
 
     <a target="_blank" href="https://86087-590828-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2016/01/paris-fin-de-semana-1024x683.jpeg">
-      <img src="https://86087-590828-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2016/01/paris-fin-de-semana-1024x683.jpeg" alt="Paris" style="width:150px">
+      <img src="https://86087-590828-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2016/01/paris-fin-de-semana-1024x683.jpeg" alt="Paris">
     </a>
   </body>
 </html>

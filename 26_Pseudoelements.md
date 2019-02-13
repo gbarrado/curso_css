@@ -6,9 +6,9 @@ Son dos
 * `:before` (aparece antes)
 * `:after` (aparece despues)
 
-Para crear un pseudoelemento se usa el selector correspondiente y se requiere siempre usar la propiedad content.</p>
+Para crear un pseudoelemento se usa el selector correspondiente y se requiere siempre usar la propiedad content.
 
-La propiedad content imprime un contenido en el pseudoelemento. Puede recibir tres tipos de datos:</p>
+La propiedad content imprime un contenido en el pseudoelemento. Puede recibir tres tipos de datos:
 * `string` ("entre comillas")
 * `url()`
 * `attr()` Imprime un atributo (pasando el atributo como parámetro)

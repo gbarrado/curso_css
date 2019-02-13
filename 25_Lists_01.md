@@ -34,7 +34,7 @@ Y un shorthand que agrupa a las tres: `list-style`
 
 ---------------------------------------------------------------------------
 
-**EJEMPLO CÓDIGO**: PLACEHOLDER
+**EJEMPLO CÓDIGO**: LIST-STYLE-TYPE
 
 ---------------------------------------------------------------------------
 

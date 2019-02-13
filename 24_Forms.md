@@ -47,6 +47,45 @@ PSEUDO CLASES PARA FORMULARIOS
 
 ---------------------------------------------------------------------------
 
+**EJEMPLO CÓDIGO**: CHECKED
+
+---------------------------------------------------------------------------
+
+  <form action="">
+    <input type="radio" checked="checked" style="height: 50px;
+      width: 50px" value="male" name="gender"> Male<br>
+    <input type="radio" value="female" name="gender"> Female<br>
+    <input type="checkbox" checked="checked" style="height: 50px;
+      width: 50px" value="Bike"> I have a bike<br>
+    <input type="checkbox" value="Car"> I have a car 
+  </form>
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <style> 
+    input:checked {
+      height: 50px;
+      width: 50px;
+    }
+    </style>
+  </head>
+  <body>
+
+  <form action="">
+    <input type="radio" checked="checked" value="male" name="gender"> Male<br>
+    <input type="radio" value="female" name="gender"> Female<br>
+    <input type="checkbox" checked="checked" value="Bike"> I have a bike<br>
+    <input type="checkbox" value="Car"> I have a car 
+  </form>
+
+  </body>
+</html>
+```
+
+---------------------------------------------------------------------------
+
 **EJEMPLO CÓDIGO**: READ-ONLY
 
 ---------------------------------------------------------------------------

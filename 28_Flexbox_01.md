@@ -818,7 +818,7 @@ Se aplica al container
     * `flex-start`
     * `flex-end`
     * `center`
-    * `baseline`
+    * `baseline` (Los artículos se colocan en la línea de base del contenedor)
 
 ---------------------------------------------------------------------------
 
@@ -1074,6 +1074,8 @@ Se aplica al container
 
 ---------------------------------------------------------------------------
 
+> **NOTA**: Los artículos se colocan en la línea de base del contenedor
+
 <div class="flex-container" style ="display: flex;
         height: 200px;
         align-items: baseline;
@@ -1146,6 +1148,72 @@ Se aplica al container
 
 ---------------------------------------------------------------------------
 
+**EJEMPLO CÓDIGO**: `flex-wrap: no-wrap`
+
+---------------------------------------------------------------------------
+
+<div id="main" style="width: 200px;
+        height: 200px;
+        border: 1px solid #c3c3c3;
+        display: -webkit-flex; /* Safari */
+        -webkit-flex-wrap: no-wrap; /* Safari 6.1+ */
+        display: flex;
+        flex-wrap: no-wrap;">
+  <div style="background-color:coral;
+        width: 50px;
+        height: 50px;">A</div>
+  <div style="background-color:lightblue;
+        width: 50px;
+        height: 50px;">B</div>
+  <div style="background-color:khaki;
+        width: 50px;
+        height: 50px;">C</div>
+  <div style="background-color:pink;
+        width: 50px;
+        height: 50px;">D</div>
+  <div style="background-color:lightgrey;
+        width: 50px;
+        height: 50px;">E</div>
+  <div style="background-color:lightgreen;
+        width: 50px;
+        height: 50px;">F</div>
+</div>
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <style> 
+      #main {
+        width: 200px;
+        height: 200px;
+        border: 1px solid #c3c3c3;
+        display: -webkit-flex; /* Safari */
+        -webkit-flex-wrap: no-wrap; /* Safari 6.1+ */
+        display: flex;
+        flex-wrap: no-wrap;
+      }
+      #main div {
+        width: 50px;
+        height: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="main">
+      <div style="background-color:coral;">A</div>
+      <div style="background-color:lightblue;">B</div>
+      <div style="background-color:khaki;">C</div>
+      <div style="background-color:pink;">D</div>
+      <div style="background-color:lightgrey;">E</div>
+      <div style="background-color:lightgreen;">F</div>
+    </div>
+  </body>
+</html>
+```
+
+---------------------------------------------------------------------------
+
 **EJEMPLO CÓDIGO**: `flex-wrap: wrap`
 
 ---------------------------------------------------------------------------
@@ -1190,6 +1258,72 @@ Se aplica al container
         -webkit-flex-wrap: wrap; /* Safari 6.1+ */
         display: flex;
         flex-wrap: wrap;
+      }
+      #main div {
+        width: 50px;
+        height: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="main">
+      <div style="background-color:coral;">A</div>
+      <div style="background-color:lightblue;">B</div>
+      <div style="background-color:khaki;">C</div>
+      <div style="background-color:pink;">D</div>
+      <div style="background-color:lightgrey;">E</div>
+      <div style="background-color:lightgreen;">F</div>
+    </div>
+  </body>
+</html>
+```
+
+---------------------------------------------------------------------------
+
+**EJEMPLO CÓDIGO**: `flex-wrap: wrap-reverse`
+
+---------------------------------------------------------------------------
+
+<div id="main" style="width: 200px;
+        height: 200px;
+        border: 1px solid #c3c3c3;
+        display: -webkit-flex; /* Safari */
+        -webkit-flex-wrap: wrap-reverse; /* Safari 6.1+ */
+        display: flex;
+        flex-wrap: wrap-reverse;">
+  <div style="background-color:coral;
+        width: 50px;
+        height: 50px;">A</div>
+  <div style="background-color:lightblue;
+        width: 50px;
+        height: 50px;">B</div>
+  <div style="background-color:khaki;
+        width: 50px;
+        height: 50px;">C</div>
+  <div style="background-color:pink;
+        width: 50px;
+        height: 50px;">D</div>
+  <div style="background-color:lightgrey;
+        width: 50px;
+        height: 50px;">E</div>
+  <div style="background-color:lightgreen;
+        width: 50px;
+        height: 50px;">F</div>
+</div>
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <style> 
+      #main {
+        width: 200px;
+        height: 200px;
+        border: 1px solid #c3c3c3;
+        display: -webkit-flex; /* Safari */
+        -webkit-flex-wrap: wrap-reverse; /* Safari 6.1+ */
+        display: flex;
+        flex-wrap: wrap-reverse;
       }
       #main div {
         width: 50px;

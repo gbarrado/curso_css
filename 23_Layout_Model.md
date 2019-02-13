@@ -117,7 +117,6 @@ Cada uno de ellos tiene lo siguiente:
 
 ---------------------------------------------------------------------------
 
-
 <div style="width: 500px;
       margin: 0 auto;">
   <p style="background: aqua;
@@ -245,6 +244,7 @@ Cada uno de ellos tiene lo siguiente:
   top:100px;">
 </div>
 
+```html
 <!doctype html>
 <html lang="es">
 <head>

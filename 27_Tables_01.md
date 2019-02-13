@@ -3,9 +3,10 @@
 De forma predeterminada, las tablas se ajustan en su ancho al contenido
 
 * `table-layout* `especifica como se distribuirá el espacio de las columnas. 
-    Valores
-      * `automatic` (default)
-      * `fixed:` el ancho de la tabla se define con width. Si no se especifica un ancho para las columnas, serán uniformes.
+    
+  Valores
+    * `automatic` (default)
+    * `fixed:` el ancho de la tabla se define con width. Si no se especifica un ancho para las columnas, serán uniformes.
 
 * `caption-side* `Indica si el caption se mostrará arriba (top, default) o abajo (bottom)
 * `border-spacing: x y;* `Indica la separacion entre las celdas (solo aplica si la tabla tiene border-collapse: separate)
@@ -17,24 +18,46 @@ De forma predeterminada, las tablas se ajustan en su ancho al contenido
 
 ---------------------------------------------------------------------------
 
-<div>
-  <img src="https://lenguajecss.com/img/logo.png" width=20px><h1 style="display: inline;">This is a heading</h1>
-  <h1>This is a heading</h1>
-</div>
+<table style="border: 2px solid green;">
+      <tr>
+        <th style="border: 2px solid green;">Firstname</th>
+        <th style="border: 2px solid green;">Lastname</th>
+      </tr>
+      <tr>
+        <td style="border: 2px solid green;">Peter</td>
+        <td style="border: 2px solid green;">Griffin</td>
+      </tr>
+      <tr>
+        <td style="border: 2px solid green;">Lois</td>
+        <td style="border: 2px solid green;">Griffin</td>
+      </tr>
+    </table>
   
 ```html
 <!DOCTYPE html>
 <html>
   <head>
     <style>
-      h1::before {
-        content: url(https://lenguajecss.com/img/logo.png);
+      table, th, td {
+        border: 2px solid green;
       }
     </style>
   </head>
   <body>
-    <h1>This is a heading</h1>
-    <h1>This is a heading</h1>
+    <table>
+      <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+      </tr>
+      <tr>
+        <td>Peter</td>
+        <td>Griffin</td>
+      </tr>
+      <tr>
+        <td>Lois</td>
+        <td>Griffin</td>
+      </tr>
+    </table>
   </body>
 </html>
 ```

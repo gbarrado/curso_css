@@ -26,6 +26,8 @@ Defina dónde comenzará el **item** y dónde terminará.
 
 > **NOTA**: Para colocar un elemento, puede hacer referencia a los números de línea o utilizar la palabra clave "`span`" para definir cuántas columnas tendrá el elemento.
 
+> **NOTA**: El `span` podrá definirse tanto al declarar el inicio como el final del item.
+
 [Volver al inicio](#-Grid)
 
 ---------------------------------------------------------------------------
@@ -548,7 +550,7 @@ El **item** 1 comenzará en la línea 1 y terminará en la línea 4:
 
 ---------------------------------------------------------------------------
 
-**EJEMPLO CÓDIGO**: `grid-row: 1 / 4;`
+**EJEMPLO CÓDIGO**: `grid-row: 1 / span 2;`
 
 ---------------------------------------------------------------------------
 

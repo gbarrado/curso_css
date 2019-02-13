@@ -120,9 +120,6 @@ Puede tener los siguientes valores: `repeat` | `no-repeat` |  `repeat-x` | `repe
 
 [Volver al inicio](#-Background)
 
-
-
-
 ### BACKGROUND-ATTACHEMENT
 
 ---------------------------------------------------------------------------
@@ -140,7 +137,6 @@ Posibles valores: `scroll` | `fixed`
 ```
 
 [Volver al inicio](#-Background)
-
 
 ### BACKGROUND-CLIP
 

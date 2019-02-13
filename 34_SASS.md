@@ -2,6 +2,8 @@
 
 Puede instalar **Sass** globalmente usando `npm install -g sass` (necesitas Node.js, `node -v` y `npm -v`) que le dará acceso al ejecutable sass. También puede añadirlo a su proyecto usando `npm install --save-dev sass`. Esto proporciona el ejecutable así como una biblioteca:
 
+[https://www.npmjs.com/get-npm](https://www.npmjs.com/get-npm)
+
 ```bash
 $ npm install -g sass
 C:\Users\usuario\AppData\Roaming\npm\sass -> C:\Users\usuario\AppData\Roaming\npm\node_modules\sass\sass.js
@@ -13,6 +15,7 @@ added 135 packages from 107 contributors in 17.459s
 ```
 
 > **NOTA**: Documentación origianl: [https://sass-lang.com/](https://sass-lang.com/)
+
 > **NOTA**: Transpilador online: [https://www.sassmeister.com/](https://www.sassmeister.com/)
 
 [Volver al inicio](#-SASS)

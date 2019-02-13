@@ -15,9 +15,11 @@ img {
 
 2. Espaciado por debajo de las imágenes
 
-Esto se debe a que son elementos inline y su altura de línea (line-height) es quien genera ese espacio. 2 soluciones:
-    * `line-height: 0;`, al contenedor
-    * `display:block;`, a la misma imagen
+Esto se debe a que son elementos inline y su altura de línea (line-height) es quien genera ese espacio. 
+
+  Existen 2 soluciones:
+  * `line-height: 0;`, al contenedor
+  * `display:block;`, a la misma imagen
 
 3. Centrado de imágenes, dos formas de centrar imágenes:
     * A la imagen:
